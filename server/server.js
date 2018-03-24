@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt')
 const mongoose = require('mongoose')
 const config = require('./config/config').get(process.env.NODE_ENV)
 const app = express()
-
+     
 //########### HBS SETUP #############
 app.engine('hbs', hbs({
     extname: 'hbs',
